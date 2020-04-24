@@ -25,7 +25,7 @@ def data_cleaning(csvfile):
     df['Result']= (df['last_trip_date'] >= '2014-06-01')
 
     y=df['Result'].values
-    df.drop(axis=1,columns='Result',inplace=True)
+    df.drop(axis=1,columns=['Result', 'last_trip_date', 'signup_date'],inplace=True)
     X= df.values
     
     return X,y
