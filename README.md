@@ -31,6 +31,9 @@ in the preceding 30 days (from the day the data was pulled).
 
 ## Graphs
 
+<img alt="Ratio by population density" src='FeatureImportance.png'>
+
+<img alt="Ratio by population density" src='Model_ROC.png'>
 
 ## Presentation
 
