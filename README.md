@@ -9,7 +9,7 @@ Richard Bellamy
 
 ### Table of Contents
 
-[Problem-Domain](#Problem-Domain)
+[Problem Domain](#Problem Domain)
 
 [Graphs](#Graphs)
 
