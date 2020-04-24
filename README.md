@@ -16,6 +16,8 @@ Richard Bellamy
 
 [Graphs](#Graphs)
 
+[Presentation](#Presentation)
+
 ## Problem-Domain
 A ride-sharing company (Company X) is interested in predicting rider retention. To explore this question, we will explore a sample dataset of a cohort of
 users who signed up for an account in January 2014. The data was pulled on July
@@ -32,14 +34,26 @@ in the preceding 30 days (from the day the data was pulled).
 
 ## Presentation
 
-How did you compute the target?
+#### How did you compute the target?
 
-What model did you use in the end? Why?
+We computed the target by spliting the last ride column on "-" and taking the middle value.  Anything below 6 was considered churned.
 
-Alternative models you considered? Why are they not good enough?
+#### What model did you use in the end? Why?
 
-What performance metric did you use to evaluate the model? Why?
 
-Based on insights from the model, what plans do you propose to reduce churn?
 
-What are the potential impacts of implementing these plans or decisions? What performance metrics did you use to evaluate these decisions, why?
+#### Alternative models you considered? Why are they not good enough?
+
+The first model we eliminated was the linear regression model because this is a classification problem.
+
+Next we eliminated the logistic regression because it preforemed worse then the out of box random forest classifier that we used.
+
+
+#### What performance metric did you use to evaluate the model? Why?
+
+
+#### Based on insights from the model, what plans do you propose to reduce churn?
+
+
+
+#### What are the potential impacts of implementing these plans or decisions? What performance metrics did you use to evaluate these decisions, why?
