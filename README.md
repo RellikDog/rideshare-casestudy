@@ -3,8 +3,11 @@ Case Study 3
 
 ## Team
 Isaac Campbel-Smith
+
 Joseph Shanks
+
 Brandon Lindsey
+
 Richard Bellamy
 
 ### Table of Contents
