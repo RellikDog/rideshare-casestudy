@@ -28,3 +28,18 @@ in the preceding 30 days (from the day the data was pulled).
 -if we assumed all users churned we would start with an accuracy of 62%
 
 ## Graphs
+
+
+## Presentation
+
+How did you compute the target?
+
+What model did you use in the end? Why?
+
+Alternative models you considered? Why are they not good enough?
+
+What performance metric did you use to evaluate the model? Why?
+
+Based on insights from the model, what plans do you propose to reduce churn?
+
+What are the potential impacts of implementing these plans or decisions? What performance metrics did you use to evaluate these decisions, why?
