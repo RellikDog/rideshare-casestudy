@@ -47,10 +47,9 @@ We decided that our strongest model was the random forest classifier.  It perfor
 |Pred+|    2500    |    793     |
 |Pred-|    1290    |   5417     |
 
--Accuracy  of best:  0.7913
--Precision of best:  0.7587359465208143
--Recall    of best:  0.6588390501319261
-
+-Accuracy  of best:  0.7778
+-Precision of best:  0.7381684081130916
+-Recall    of best:  0.6367974549310711
 
 
 #### Alternative models you considered? Why are they not good enough?
