@@ -1,4 +1,4 @@
 # Ignore Folders
 data/
-_pycache_
-*.ipynb/checkpoints*
+*_pycache_*
+*.ipynb/checkpoints/*

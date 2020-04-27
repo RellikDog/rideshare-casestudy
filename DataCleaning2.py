@@ -34,7 +34,7 @@ def data_cleaning(csvfile):
 
 def eda(csvfile):
 
-    df= pd.read_csv(csvfile)
+    df= pd.read_csv(csvfile, parse_dates=['last_trip_date', 'signup_date'])
     df['phone']=df['phone'].fillna(value='iPhone')
     df['Is_iPhone'] = df['phone'].apply(lambda x: 1 if x == 'iPhone' else 0)
     
